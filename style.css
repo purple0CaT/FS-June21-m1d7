@@ -11,11 +11,12 @@ body {
 }
 
 section{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(243, 243, 243);
     text-align: center;
     position: relative;
     border-radius: 5px;
     padding-bottom: 1em;
+    box-shadow: 0 2px 20px #000;
 }
 .shop-name{
     border-bottom: 1px solid black;
@@ -40,15 +41,19 @@ a {
 }
 .table-cell {
     padding: 8px;
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(255, 255, 255);
     border: 1px solid #000;
     border-radius: 5px;
     display: table-cell;
     box-shadow: 0 1px 5px #000;
 }
 
+.table-cell:hover {
+    box-shadow: 0 1px 15px #000;
+}
+
 img {
-    height: 15em;
+    width: 100%;
     border-radius: 10px;
 }
 ul li{
@@ -62,4 +67,38 @@ ul li{
 }
 span{
     color: rgb(187, 0, 0);
+}
+
+/* Foooter */
+
+footer {
+    padding: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 5px;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(241, 253, 255);
+    display: flex;
+    margin-top: 5px;
+}
+
+form {
+padding-top: 1em;
+}
+
+form input, form button{
+display: block;
+margin: 10px auto;
+border-radius: 5px;
+border: 1px solid #000;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 5px #000;
+}
+
+.selected {
+    color: aqua;
 }
