@@ -109,7 +109,17 @@ button:hover {
 .visibImg {
     visibility: hidden;
 }
-
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+.buttons button{
+    width: 10em;
+    height: 2em;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
 /* ADAPTIVE FOR MOBILES */
 
 @media screen and (max-width: 400px){
@@ -128,5 +138,9 @@ button:hover {
     }
     .info{
         padding-left: 10px;
+    }
+    .buttons {
+        display: table-row;
+        justify-content: space-between;
     }
 }
