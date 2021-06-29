@@ -16,8 +16,8 @@ function changeBackCol(){
     backGround.style.backgroundColor = "#fff"
 }
 // Footer Address
-function footerAddress(){
-footAdrs.innerText = "Wales, Mountain Street"
+function footerAddress(a){
+footAdrs.innerText = a
 }
 
 // Add CSS class to Amazon link
