@@ -78,7 +78,7 @@ footer {
     border-radius: 5px;
     justify-content: space-around;
     width: 100%;
-    background-color: rgb(241, 253, 255);
+    background-color: rgb(255, 254, 241);
     display: flex;
     margin-top: 5px;
 }
@@ -102,3 +102,7 @@ button:hover {
 .selected {
     color: aqua;
 }
+.linkClass {
+    background-color: rgb(230, 251, 255);
+}
+

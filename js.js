@@ -20,5 +20,5 @@ footAdrs.innerText = "Wales, Mountain Street"
 
 function addCssCls () {
 for ( let tabs of amazonLink){
-    tabs.style.backgroundColor = 'rgb(230, 251, 255)'}
+    tabs.classList.toggle("linkClass")}
 }
