@@ -1,0 +1,64 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(211, 211, 211);
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    padding: 1em;
+}
+
+section{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    padding-bottom: 1em;
+}
+.shop-name{
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.table h4{
+    width: auto;
+}
+.table{
+    display: table;
+    width: 100%;
+    border-spacing: 5px 0;
+
+}
+.table-cell {
+    padding: 8px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: table-cell;
+    box-shadow: 0 1px 5px #000;
+}
+
+img {
+    height: 15em;
+    border-radius: 10px;
+}
+ul li{
+    text-align: left;
+    font-size: 0.8em;
+}
+
+
+.header-cell {
+
+}
+span{
+    color: rgb(187, 0, 0);
+}
