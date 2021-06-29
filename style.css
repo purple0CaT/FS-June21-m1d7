@@ -109,3 +109,23 @@ button:hover {
 .visibImg {
     visibility: hidden;
 }
+
+/* ADAPTIVE FOR MOBILES */
+
+@media screen and (max-width: 400px){
+
+    .table-cell {
+        padding: 10px;
+        margin: 5px 0;
+        display: table-row;
+    }
+    .table {
+        padding: 10px;
+    }
+    footer {
+    flex-direction: column;    
+    }
+    .info{
+        padding-left: 10px;
+    }
+}
