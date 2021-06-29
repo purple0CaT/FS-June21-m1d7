@@ -115,6 +115,7 @@ button:hover {
 @media screen and (max-width: 400px){
 
     .table-cell {
+        position: relative;
         padding: 10px;
         margin: 5px 0;
         display: table-row;

@@ -42,10 +42,7 @@ function priceClr(){
     for ( let spanC of price){
         
         let ind = Math.floor(Math.random() * colors.length)
-            
-            priceCol = colors[ind]
-            console.log(priceCol)
-            
+            priceCol = colors[ind]            
         spanC.style.color=`${priceCol}`
 }
 }
