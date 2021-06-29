@@ -13,7 +13,7 @@ function changeText(){
 }
 //  BackGround color changer
 function changeBackCol(){
-    backGround.style.backgroundColor = "#fff"
+    backGround.style.backgroundColor = "rgb(168, 171, 172)"
 }
 // Footer Address
 function footerAddress(a){
