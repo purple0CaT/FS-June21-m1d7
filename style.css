@@ -95,6 +95,7 @@ border: 1px solid #000;
 }
 
 button:hover {
+    background-color: #fff;
     cursor: pointer;
     box-shadow: 0 1px 5px #000;
 }
